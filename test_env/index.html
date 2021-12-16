@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+        <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script> 
+        <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+  </head>
+  <body>
+    <a-scene background="color: grey">
+        <!--Escena: forest-->
+        <a-box color="red" position="0 2 -5" rotation="0 45 45" scale="5 5 5"></a-box>
+
+        <!-- Out of the box environment! -->
+<a-entity environment="preset: arches; dressingAmount: 90; active: true; dressing: trees; dressingColor: #8ae234; groundColor: #4a6041" visible="" scale="5 5 5"><a-entity class="environment" position="0 50 0" light="type: hemisphere; color: #91cba3; intensity: 0.309; groundColor: #a87d6f" visible=""></a-entity><a-entity class="environment" position="-0.11 0.16 0.33" light="intensity: 0.30894067906222805; shadowCameraLeft: -10; shadowCameraBottom: -10; shadowCameraRight: 10; shadowCameraTop: 10" visible=""></a-entity><a-entity rotation="-90 0 0" class="environmentGround environment" visible="" scale="1 1 10" shadow="cast: false; receive: false"></a-entity><a-entity class="environmentDressing environment" visible=""></a-entity><a-sky radius="200" theta-length="110" class="environment" material="shader: skyshader; sunPosition: -0.2872934337105636 0.4178813581244561 0.8618803011316908" visible="" geometry="primitive: box"></a-sky><a-entity id="stars" visible=""></a-entity><a-entity class="environment" position="0 50 0" light="type: hemisphere; color: #CEE4F0; intensity: 0.30894067906222805; groundColor: #a87d6f" visible=""></a-entity><a-entity class="environment" position="-0.11 0.16 0.33" light="intensity: 0.30894067906222805; shadowCameraLeft: -10; shadowCameraBottom: -10; shadowCameraRight: 10; shadowCameraTop: 10" visible=""></a-entity><a-entity rotation="-90 0 0" class="environmentGround environment" visible="" scale="1 1 10" shadow="cast: false; receive: false"></a-entity><a-entity class="environmentDressing environment" visible=""></a-entity><a-sky radius="200" theta-length="110" class="environment" material="shader: skyshader; sunPosition: -0.2872934337105636 0.4178813581244561 0.8618803011316908" visible="" geometry=""></a-sky><a-entity id="stars"></a-entity><a-entity class="environment" position="0 50 0" light="type: hemisphere; color: #CEE4F0; intensity: 0.30894067906222805; groundColor: #4a6041" visible=""></a-entity><a-entity class="environment" position="-0.11 0.16 0.33" light="intensity: 0.30894067906222805; shadowCameraLeft: -10; shadowCameraBottom: -10; shadowCameraRight: 10; shadowCameraTop: 10" visible=""></a-entity><a-entity rotation="-90 0 0" class="environmentGround environment" visible="" scale="1 1 10" shadow="cast: false; receive: false"></a-entity><a-entity class="environmentDressing environment" visible=""></a-entity><a-sky radius="200" theta-length="110" class="environment" material="shader: skyshader; sunPosition: -0.2872934337105636 0.4178813581244561 0.8618803011316908" visible="" geometry=""></a-sky><a-entity id="stars"></a-entity></a-entity>      
+        <a-assets>
+            
+            <!--Casa Nieve-->ç
+            <a-asset-item id="snow_house" src="gltfs/Snow_house/scene.gltf"></a-asset-item>
+
+        <!--img id="molinos" src="textures/molinos-bw.jpg">
+        <img id="soil" src="textures/soil.jpg">
+        <img id="bands" src=".textures/bands.jpg">
+        <img id="plaza-360" src="textures/grass.jpeg">
+        <img id="suelo" src="textures/suelo.jpg"-->
+      </a-assets>
+a
+      <!-- House entities--> 
+      <a-entity position="-2.72228 0 -35.4968" gltf-model="gltfs/Snow_house/scene.gltf" scale="5 5 5">
+    </a-entity>
+
+     
+      <a-light type="ambient" color="grey"></a-light><a-light type="point" intensity="2" position="-51.97346 45.7425 30.53425" light="intensity: 5; color: #fce94f"></a-light>
+    </a-scene>
+  </body>

@@ -1,0 +1,11 @@
+Model Information:
+* title:	DAY4: The Cottage
+* source:	https://sketchfab.com/3d-models/day4-the-cottage-80929caae8da47e4adb0dbbf0275ab2f
+* author:	Malena Totland (https://sketchfab.com/malenatotland)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "DAY4: The Cottage" (https://sketchfab.com/3d-models/day4-the-cottage-80929caae8da47e4adb0dbbf0275ab2f) by Malena Totland (https://sketchfab.com/malenatotland) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
