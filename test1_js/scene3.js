@@ -21,18 +21,24 @@ AFRAME.registerComponent('basic-scene', {
         box.addEventListener('click', function() {
             let box2 = document.createElement('a-box');
             box2.setAttribute('color', 'red');
+
             max = 100; 
             min = -10; 
             x_r = Math.random() * (max - min) + min; 
             y_r = Math.random() * (10 - min) + min; 
             z_r = Math.random() * (max - min) + min; 
             box2.setAttribute('position', {x: x_r, y: y_r, z: z_r}); 
+
             box2.setAttribute('rotation', {x: 0, y: 45, z: 0});
             box2.setAttribute('color', "#4CC3D9");
             box2.setAttribute('globe', null);
             self.el.appendChild(box2);
             box2.addEventListener('click', function() {
                 box2.setAttribute('scale', {x: 0, y: 0, z: 0});
+                box2.setAttribute('sound', null);
+
+                
+
 
             });
         
