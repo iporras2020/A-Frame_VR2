@@ -35,7 +35,10 @@ AFRAME.registerComponent('basic-scene', {
             self.el.appendChild(box2);
             box2.addEventListener('click', function() {
                 box2.setAttribute('scale', {x: 0, y: 0, z: 0});
-                box2.setAttribute('sound', null);
+                box2.setAttribute('sound', 'src', 'url(sound1.mp3)');
+                box2.setAttribute('sound', 'autoplay', 'true');
+                
+
 
                 
 
