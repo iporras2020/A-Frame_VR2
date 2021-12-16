@@ -15,4 +15,5 @@ Pulsando "Ctrl+Alt+i" dentro de la escena entramos en el depurador de A-Frame
 Estos se pueden encontrar en diferentes sitios web como [sketchfab](https://sketchfab.com)
 
 ## GitHub pages 
-Activamos en opciones pages la opción, selecionamos la rama(main) y la carpeta por ejemplo(root)
+Activamos en opciones pages la opción, selecionamos la rama(main) y la carpeta por ejemplo(root). 
+Creamos un fichero index.html. 
